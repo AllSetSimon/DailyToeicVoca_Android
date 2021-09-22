@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@android:id/tabhost"
+    android:background="@drawable/tiime"
+    tools:context=".TimerActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+      <TabWidget
+          android:id="@android:id/tabs"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+      </TabWidget>
+
+
+      <FrameLayout
+          android:id="@android:id/tabcontent"
+          android:layout_width="match_parent"
+          android:layout_height="450dp"
+          android:layout_weight="1">
+
+
+
+         <Chronometer
+             android:id="@+id/stopWatch"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="30dp"
+             android:gravity="center"
+             android:textSize="80dp"
+             android:width="1dp"/>
+             />
+
+          <TextView
+              android:visibility="invisible"
+              android:id="@+id/timer"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="30dp"
+              android:gravity="center"
+              android:textSize="80dp"/>
+
+
+      </FrameLayout>
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+         <Button
+             android:visibility="invisible"
+             android:id="@+id/btnStart1"
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:textColor="#ffffffff"
+             android:text="공부 시작"
+             android:background="@drawable/layout_border6"
+             android:textSize="15dp"
+             android:textStyle="bold"
+             android:layout_marginLeft="20dp"
+             android:layout_weight="1"/>
+
+         <Button
+             android:visibility="invisible"
+             android:id="@+id/btnEnd1"
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:layout_marginLeft="10dp"
+             android:layout_marginRight="10dp"
+             android:textColor="#ffffffff"
+             android:text="공부 끝"
+             android:background="@drawable/layout_border6"
+             android:textSize="15dp"
+             android:textStyle="bold"
+             android:layout_weight="1"/>
+
+        </LinearLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+              android:layout_weight="1">
+
+              <Button
+                  android:visibility="visible"
+                  android:id="@+id/btnStart2"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:background="@drawable/layout_border6"
+                  android:text="타이머 시작"
+                  android:textSize="15dp"
+                  android:textStyle="bold"
+                  android:textColor="#ffffffff"
+                  android:layout_marginLeft="20dp"
+                  android:layout_weight="1"/>
+
+              <Button
+                  android:visibility="visible"
+                  android:id="@+id/btnEnd2"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginRight="10dp"
+                  android:background="@drawable/layout_border6"
+                  android:textSize="15dp"
+                  android:textStyle="bold"
+                  android:textColor="#ffffffff"
+                  android:text="타이머 리셋 및 종료"
+                  android:layout_weight="1"/>
+
+          </LinearLayout>
+
+
+      </FrameLayout>
+
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1.3">
+
+           <EditText
+               android:visibility="invisible"
+               android:id="@+id/edtMin"
+               android:layout_width="250dp"
+               android:layout_marginLeft="62dp"
+               android:layout_height="wrap_content"
+               android:inputType="number"
+               android:hint="Minute(분)을 입력하세요!"/>
+
+           <EditText
+               android:visibility="invisible"
+               android:id="@+id/edtSec"
+               android:layout_marginTop="35dp"
+               android:layout_width="250dp"
+               android:layout_marginLeft="62dp"
+               android:layout_height="wrap_content"
+               android:inputType="number"
+               android:hint="Second(초)을 입력하세요!"/>
+
+           <Button
+               android:visibility="invisible"
+               android:id="@+id/inputTimer"
+               android:layout_marginTop="75dp"
+               android:layout_width="300dp"
+               android:gravity="center"
+               android:layout_marginLeft="35dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/layout_border6"
+               android:textSize="15dp"
+               android:textStyle="bold"
+               android:textColor="#ffffffff"
+               android:text="시간입력"/>
+
+
+
+       <ListView
+           android:visibility="invisible"
+           android:id="@+id/lstview"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1.3"></ListView>
+
+       </FrameLayout>
+
+
+
+
+
+
+
+
+   </LinearLayout>
+
+
+
+</TabHost>

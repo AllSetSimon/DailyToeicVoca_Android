@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity"
+    android:background="@drawable/stud1"
+    android:gravity="center">
+
+
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="내 정보 수정"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/ic_border_color_black_24dp"
+        android:drawableLeft="@drawable/ic_border_color_black_24dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/layout_border9"/>
+
+    <Button
+        android:id="@+id/btnYBM"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="YBM 홈페이지"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/ic_open_in_browser_black_24dp"
+        android:drawableLeft="@drawable/ic_open_in_browser_black_24dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/layout_border9"/>
+
+    <Button
+        android:id="@+id/btnToeicScore"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="나의 토익 성적관리"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:drawableStart="@drawable/ic_assignment_black_24dp"
+        android:drawableLeft="@drawable/ic_assignment_black_24dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/layout_border9"/>
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="About TOEIC VOCA"
+        android:textColor="#ffffffff"
+        android:textSize="17dp"
+        android:drawableLeft="@drawable/ic_announcement_black_24dp"
+        android:drawableStart="@drawable/ic_announcement_black_24dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="@drawable/layout_border9"/>
+
+    <Button
+        android:id="@+id/btnAppVersion"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:text="APP VERSION 1.3.0"
+        android:textColor="#ffffffff"
+        android:textSize="17dp"
+        android:drawableLeft="@drawable/ic_android_black_24dp"
+        android:drawableStart="@drawable/ic_android_black_24dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:gravity="center"
+        android:background="@drawable/layout_border9"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

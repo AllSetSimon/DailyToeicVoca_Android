@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.skuniv.prologin">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/toeicccpng"
+        android:label="DailyToeicVoca"
+        android:roundIcon="@mipmap/toeicccpng"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".TimerActivity" />
+        <activity android:name=".WordAddActivity" />
+        <activity android:name=".WordTest" />
+        <activity android:name=".WordTestFinishActivity" />
+        <activity android:name=".WordBookActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".CalendarAddActivity" />
+        <activity android:name=".WordReTest" />
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".MemberUpdateActivity" />
+        <activity android:name=".ToeicScoreActivity" />
+        <activity android:name=".OnetoFiftyActivity"></activity>
+    </application>
+
+</manifest>

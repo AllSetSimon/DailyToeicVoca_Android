@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ln1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/datep"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="회차"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtNum"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="회차를 입력하세요!"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="월"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtMonth"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="월(month)를 입력하세요!"/>
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="일"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtDate"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="일을 입력하세요!"/>
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="인터넷 접수"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtEnroll"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="인터넷 접수기간을 입력하세요!"/>
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="인터넷 추가접수"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtAddEnroll"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="인터넷 추가접수 기간을 입력하세요!"/>
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="성적발표일"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtScore"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:hint="성적발표일을 입력하세요!"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnADD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/layout_border11"
+        android:text="등록"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:background="@drawable/layout_border11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="취소"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

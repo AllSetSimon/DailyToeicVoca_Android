@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/but"
+    tools:context=".WordAddActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/inputWord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000"
+            android:text="단어 입력 : "
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/edtWord"
+            android:layout_marginTop="8dp"
+            android:hint="추가할 단어를 입력하세요!"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/inputMean1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="단어 의미1 : "
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/edtMean1"
+            android:textColor="#000000"
+            android:hint="추가할 의미를 입력하세요!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/inputMean2"
+            android:layout_width="0dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:text="단어 의미2 : "
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/edtMean2"
+            android:hint="추가할 의미를 입력하세요!"
+            android:textColor="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:background="@drawable/layout_border10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="단어 추가하기"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:background="@drawable/layout_border10"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="단어 조회하기"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:background="@drawable/layout_border10"
+            android:textColor="#ffffff"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="단어 삭제하기"
+            android:layout_weight="1"/>
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="18">
+
+            <TextView
+                android:id="@+id/prnWord"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="단어"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="@drawable/layout_border"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/prnMean1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="단어 의미1"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:background="@drawable/layout_border1"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/prnMean2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="단어 의미2"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:background="@drawable/layout_border2"
+                android:textStyle="bold"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtWord"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_border"
+                android:layout_weight="1"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/txtMean1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_border1"
+                android:textSize="17dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/txtMean2"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="17dp"
+                android:background="@drawable/layout_border2"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
